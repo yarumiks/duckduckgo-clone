@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>DuckDuckGo Clone</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- navbar -->
+    <nav>
+      <div class="container nav_container">
+        <button id="open-menu-btn" class="open-buton"><i class="fa-solid fa-bars"></i></button>
+        <ul class="nav-menu">
+          <button id="close-menu-btn" class="clese-buton">x</button>
+          <li class="nav-menu-header">
+            ayarlar
+          </li>
+          <li class="li-item"><a>temalar</a></li>
+          <li class="li-item"><a>tüm ayarlar</a></li>
+          <li class="li-item"><a>Bang Arama Kısayolları</a></li>
+
+          <ul class="security-settings">
+            <li class="nav-menu-header">
+              Gizlilik Mesajları
+            </li>
+            <li class="li-item"><a>Gizli Arama</a></li>
+            <li class="li-item"><a>Uygulama ve Eklenti</a></li>
+          </ul>
+
+          <ul class="security">
+            <li class="nav-menu-header">
+              Neden Gizlilik
+            </li>
+            <li class="li-item"><a>Gizlilik Blogu</a></li>
+            <li class="li-item"><a>Hızlandırılmış Gizlilik</a></li>
+            <li class="li-item"><a>Kursu</a></li>
+            <li class="li-item"><a>Gizlilik Yayınları Yardımı</a></li>
+          </ul>
+
+          <ul class="who">
+            <li class="nav-menu-header">
+              Biz Kimiz?
+            </li>
+
+            <li class="li-item"><a>Hakkımızda</a></li>
+            <li class="li-item"><a>Gizlilik Politikası</a></li>
+            <li class="li-item"><a>Kariyer</a></li>
+            <li class="li-item"><a>Basın Seti</a></li>
+          </ul>
+
+          <ul class="Contact">
+            <li class="nav-menu-header">
+              Gizlilik Mesajları
+            </li>
+            <li class="li-item"><a>Gizli Arama</a></li>
+            <li class="li-item"><a>Uygulama ve Eklenti</a></li>
+          </ul>
+        </ul>
+
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- search home page -->
+    <section class="home-page">
+      <div class="container home_container">
+
+        <div class="header">
+          <div class="content-logo">
+            <img src="./img/logo.png" alt="">
+            <h2>DuckDuckGo</h2>
+          </div>
+          <div class="content-search">
+            <form class="search">
+              <input type="text" class="textt" placeholder="Web'de arama yaparken takip edilmeyin">
+              <button type="submit" class="butonn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
+        </div>
+
+        <div class="badge-link">
+          <div class="container link_container">
+            <div class="badge-link-wrap">
+              <div class="badge-link_content">
+                <h1 class="badge-link_title">
+                  İnternette izlemekten bıktınız mı? <span style="font-size: 2.66rem;">size yardım edebiliriz</span>
+                </h1>
+                <p class="badge-link_subtitle">
+                  Tek bir dosya indirerek tarayıcınızda ücretsiz
+                  olarak kesintisiz gizlilik koruması edinin:
+                </p>
+                <ol class="bagde-link_bullets">
+                  <li class="bagde-link-bullet">
+                    <i class="fa-solid fa-circle-check"></i><span>Arama</span>
+                  </li>
+                  <li class="bagde-link-bullet">
+                    <i class="fa-solid fa-circle-check"></i><span>İzleyici Engelleme</span>
+                  </li>
+                  <li class="bagde-link-bullet">
+                    <i class="fa-solid fa-circle-check"></i><span>Şifreleme</span>
+                  </li>
+                </ol>
+                <div class="badge-link_btn">
+                  <span class="badge-link_btn btn btn-primary p-2 m-0">DuckDuckGo2yu chrome
+                    tarayıcısına ekle
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="info">
+          <div class="info-title">Tüm Cihazlar İçin Gizlilik Koruması</div>
+          <div class="info-cards">
+            <div class="cards-wrap">
+              <div class="card">
+                <div class="card-icon">
+                  <img src="https://duckduckgo.com/assets/add-to-browser/cppm/laptop.svg" alt="icon">
+                </div>
+                <div class="card-title">Chrome için gizlilik</div>
+                <div class="card-submittle">İnternette her zamanki gibi gezinin ve gerisini bize bırakın. Arama
+                  motorumuz, izleyici engelleyicimiz
+                  ve şifreleme uygulayıcımızı tek bir
+                  <a href="#">Chrome Uzantısı</a> olarak paketledik
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-icon">
+                  <img src="https://duckduckgo.com/assets/home/landing/icons/search.svg" alt="icon">
+                </div>
+                <div class="card-title">Özel Arama Motoru</div>
+                <div class="card-submittle">Uygulamamız veya uzantımız ile gizli aramalar yapın, favori tarayıcınıza
+                  gizli web araması özelliğini ekleyin
+                  ya da aramalarınızı doğrudan
+                  <a href="#">duckduckgo.com</a> üzerinden yapın.
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-icon">
+                  <img src="https://duckduckgo.com/assets/add-to-browser/cppm/mobile.svg" alt="icon">
+                </div>
+                <div class="card-title">Gizlilik Tarayıcı Uygulaması</div>
+                <div class="card-submittle">Mobil cihazlar için özel tarayıcımız arama motoru, izleyici engelleyici,
+                  şifreleme uygulayıcı
+                  ve daha fazlası ile donatılmıştır.
+                  <a href="#">İOS ve Android</a> cihazlarda kullanılabilir
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <div class="footer-content">
+        <h1 class="footer-title">Kişisel bilgilerinizi <br>
+          saklamıyoruz.Asla.</h1>
+        <p>Gizlilik politikamız basittir: kişisel bilgilerinizi toplamıyoruz veya paylaşmıyoruz.</p>
+        <div class="link" type="button" onclick="scrollZero()"><a href="">DuckDuckGo'yu yükleyin</a></div>
+      </div>
+      <div class="footer-image">
+        <img src="https://duckduckgo.com/assets/onboarding/bathroomguy/1-monster-v2--pre-animation.svg" alt="">
+      </div>
+    </section>
+
+  </div>
+
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
